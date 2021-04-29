@@ -9,7 +9,7 @@ export default function SlipAndFall() {
         <section className='content'>
           <h1 className='title'>Premises Liability</h1>
           <hr />
-          <h1>When to contact lawyer for a slip and fall</h1>
+          <h2>When to contact lawyer for a slip and fall</h2>
           <p>
             Premise liability cover any situation in which a property owner
             fails to maintain thier property and this results in someone getting
@@ -26,7 +26,7 @@ export default function SlipAndFall() {
             <li>Ice and snow accidents</li>
             <li>Slip and Fall</li>
           </ul>
-          <h1>How Premises Liability Cases Work</h1>
+          <h2>How Premises Liability Cases Work</h2>
           <p>
             Essentially, if you feel you are a victim of a premises liability
             cases there are key factors to consider to get your case started. If
@@ -55,7 +55,7 @@ export default function SlipAndFall() {
             property owner made the floor wet and knowledge of the hazard can be
             presumed. Again this is subject tot he jurisdiction your case is in.
           </p>
-          <h1>Proving Negligence was substantially part of your injury</h1>
+          <h2>Proving Negligence was substantially part of your injury</h2>
           <p>
             Showing the defendants negligence was a substantial factor in your
             injury, means the harm you suffered need to be a result of the

@@ -9,7 +9,7 @@ export default function MotorVehicleAccident() {
         <section className='content'>
           <h1 className='title'>Motor Vehicle Accident Lawyers</h1>
           <hr />
-          <h1>When to contact a motor vehicle lawyer</h1>
+          <h2>When to contact a motor vehicle lawyer</h2>
           <p>
             Unfortunately, motor vehicle accidents happen every day. You may
             feel lost after experiencing an accident, and technical law
@@ -27,7 +27,7 @@ export default function MotorVehicleAccident() {
             damage, fatality, or other physical injury can warrant legal
             representation.
           </p>
-          <h1>Injury or loss</h1>
+          <h2>Injury or loss</h2>
           <p>
             If you or a loved one were involved in such an accident, hiring a
             personal injury lawyer can help get compensation to cover losses you
@@ -39,7 +39,7 @@ export default function MotorVehicleAccident() {
             <li>Chiropractic Costs</li>
             <li>Lost Wages</li>
           </ul>
-          <h1>Negligence and Cause</h1>
+          <h2>Negligence and Cause</h2>
           <p>
             Motor Vehicle Accidents happen for many reasons. In technical terms
             negligence can mean “fault.” Car accidents are often the result of
