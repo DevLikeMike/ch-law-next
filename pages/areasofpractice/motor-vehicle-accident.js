@@ -10,16 +10,16 @@ export default function MotorVehicleAccident() {
       <section className='aop-page'>
         <section className='hero mvh'></section>
         <section className='content'>
-          <h1 className='title'>Motor Vehicle Accident Lawyers</h1>
+          <h1 className='title'>Motor Vehicle Accident</h1>
           <hr />
-          <h2>When to contact a motor vehicle lawyer</h2>
+          <h2>When to contact a Motor Vehicle Accident Lawyer</h2>
           <p>
             Unfortunately, motor vehicle accidents happen every day. You may
             feel lost after experiencing an accident, and technical law
-            terminology may add to this confusion. Hiring a personal injury
-            lawyer can make sure you get the justice you deserve. If you or a
-            loved one have been involved in a motor vehicle accident contact us
-            immediately for your free consultation.
+            terminology may add to this confusion. Hiring a personal injury or
+            motor vehicle accident lawyer can make sure you get the justice you
+            deserve. If you or a loved one have been involved in a motor vehicle
+            accident contact us immediately for your free consultation.
           </p>
           <p>
             The vast majority of personal injury claims are a direct result of
@@ -42,6 +42,21 @@ export default function MotorVehicleAccident() {
             <li>Chiropractic Costs</li>
             <li>Lost Wages</li>
           </ul>
+          <p>
+            Losses can add up, and adding this stress to your injuries will not
+            help recovering from this possibly life changing experience. It is
+            important to have the right people in your corner to ensure that you
+            are taken care. Hiring a personal injury lawyer can help ease this
+            stress, allowing you to rest and recover. Our law office is
+            dedicated to taking care of each and every client to the best of our
+            abilities.
+          </p>
+          <p>
+            Injuries are not just physical, in most cases clients suffer from
+            mental injuries as well. You may need therapy, or experience spiked
+            anxiety when driving again. These injuries also need to be addressed
+            after a motor vehicle accident.
+          </p>
           <h2>Negligence and Cause</h2>
           <p>
             Motor Vehicle Accidents happen for many reasons. In technical terms
@@ -62,11 +77,13 @@ export default function MotorVehicleAccident() {
             <li>Incompentent/Inexperienced driver</li>
           </ul>
           <p>
-            Our offices will conduct a thorough investigation to determine cause
-            or causes. Using evidence to prove the opposing driver was negligent
-            and at fault, thus resulting in recoverable compensation called a
-            settlement. Casey Hall Law will do everything to make sure you get
-            the settlement best fit for your accident.
+            These are just some of the most common, but you should not have to
+            suffer even from the smallest of causes. Our offices will conduct a
+            thorough investigation to determine cause or causes. Using evidence
+            to prove the opposing driver was negligent and at fault, thus
+            resulting in recoverable compensation called a<b>settlement</b>.
+            Casey Hall Law will do everything to make sure you get the
+            settlement best fit for your accident.
           </p>
           <OnPageContact bgClass='onpage_contact flex flex-center blue' />
         </section>
