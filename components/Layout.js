@@ -26,7 +26,7 @@ export default function Layout({ title, keywords, description, children }) {
 Layout.defaultProps = {
   title: "Casey Hall Law | Personal Injury Lawyer",
   description:
-    "Eastern Kentucky Personal Injury Lawyer. Casey Hall Law helps clients in the Pikeville, Jenkins, and Whitesburg areas in a wide variety of personal injury cases. If you or a loved one has been injured, contact us right away.",
+    "Eastern Kentucky Personal Injury Lawyer. Casey Hall Law helps clients in the Pikeville, Jenkins, and Whitesburg areas in a wide variety of personal injury cases.",
   keywords:
     "Lawyer, car wreck, dog bit, attorney, accident, personal injury, eastern Kentucky, KY, Fleming-Neon, Whitesburg, Pikeville",
 };

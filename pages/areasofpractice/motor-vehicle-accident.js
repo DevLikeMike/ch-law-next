@@ -3,7 +3,10 @@ import OnPageContact from "@/components/OnPageContact";
 
 export default function MotorVehicleAccident() {
   return (
-    <Layout>
+    <Layout
+      title='Casey Hall Law | Vehicle Accident'
+      description='Casey Hall Law personal injury lawyer specializes in motor vehicle accidents. Helping Reach a just and speedy resolution for your case.'
+    >
       <section className='aop-page'>
         <section className='hero mvh'></section>
         <section className='content'>
