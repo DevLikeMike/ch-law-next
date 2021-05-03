@@ -51,16 +51,6 @@ export default function Header() {
                 <a>Premises Liability</a>
               </Link>
             </li>
-            <li className='drop-item'>
-              <Link href='/'>
-                <a>Dog Bite</a>
-              </Link>
-            </li>
-            <li className='drop-item'>
-              <Link href='/'>
-                <a>Birth Injuries</a>
-              </Link>
-            </li>
           </ul>
         </li>
         <li className='nav-item'>

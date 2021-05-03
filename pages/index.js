@@ -47,7 +47,7 @@ export default function Home() {
               data-aos-duration='700'
             >
               <img
-                src='https://images.pexels.com/photos/613508/pexels-photo-613508.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                src='https://images.pexels.com/photos/618158/pexels-photo-618158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
                 alt='law'
               />
               <p>
@@ -63,7 +63,7 @@ export default function Home() {
               data-aos-duration='700'
             >
               <img
-                src='https://images.pexels.com/photos/207662/pexels-photo-207662.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                src='https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
                 alt='law2'
               />
               <p>
@@ -80,7 +80,7 @@ export default function Home() {
               data-aos-duration='700'
             >
               <img
-                src='https://images.pexels.com/photos/1011848/pexels-photo-1011848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                src='https://images.unsplash.com/photo-1562343750-446a1e7693b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1929&q=80'
                 alt=''
               />
               <p>
