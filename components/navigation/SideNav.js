@@ -11,14 +11,7 @@ export default function SideNav({ sideOpen, openHandler }) {
           <Link href='/about'>About</Link>
         </li>
         <li className='sideNav-item' onClick={openHandler}>
-          Areas of Practice
-          <ul>
-            <li>
-              <Link href='/areasofpractice/slip-and-fall'>
-                Premises Liability
-              </Link>
-            </li>
-          </ul>
+          <Link href='/areasofpractice'>Areas of practice</Link>
         </li>
         <li className='sideNav-item' onClick={openHandler}>
           <Link href='/contact'>Contact</Link>

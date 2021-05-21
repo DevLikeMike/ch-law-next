@@ -10,6 +10,10 @@
     border: 1px solid #303030;
   }
 
+  textarea {
+    min-height: 7rem;
+  }
+
   &__form {
     width: 80%;
     @include md-mobile {
@@ -42,4 +46,11 @@
       transform: scale(0.9);
     }
   }
+}
+
+.blue {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
 }

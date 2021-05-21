@@ -1,5 +1,5 @@
 nav {
-  padding: 0 1rem;
+  padding: 0 3rem;
   height: $defaulHeight;
   max-height: $defaulHeight;
   width: 100vw;
@@ -24,6 +24,10 @@ nav {
       width: 10rem;
       background: url("../public/images/icons8-kentucky-96.png") no-repeat
         center;
+
+      @include sm-mobile {
+        display: none;
+      }
     }
   }
 
@@ -38,7 +42,7 @@ nav {
       margin-right: 3rem;
       position: relative;
       height: $defaulHeight;
-      font-size: 1rem;
+      font-size: 1.25rem;
       display: flex;
       justify-content: center;
       align-items: center;

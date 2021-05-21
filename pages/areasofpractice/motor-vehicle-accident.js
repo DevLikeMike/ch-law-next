@@ -7,7 +7,7 @@ export default function MotorVehicleAccident() {
       title='Casey Hall Law | Vehicle Accident'
       description='Casey Hall Law personal injury lawyer specializes in motor vehicle accidents. Helping Reach a just and speedy resolution for your case.'
     >
-      <section className='aop-page'>
+      <main className='page-container'>
         <section className='hero mvh'></section>
         <section className='content'>
           <h1 className='title'>Motor Vehicle Accident</h1>
@@ -81,13 +81,13 @@ export default function MotorVehicleAccident() {
             suffer even from the smallest of causes. Our offices will conduct a
             thorough investigation to determine cause or causes. Using evidence
             to prove the opposing driver was negligent and at fault, thus
-            resulting in recoverable compensation called a<b>settlement</b>.
+            resulting in recoverable compensation called a <b>settlement</b>.
             Casey Hall Law will do everything to make sure you get the
             settlement best fit for your accident.
           </p>
           <OnPageContact bgClass='onpage_contact flex flex-center blue' />
         </section>
-      </section>
+      </main>
     </Layout>
   );
 }

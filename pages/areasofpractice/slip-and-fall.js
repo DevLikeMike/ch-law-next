@@ -4,7 +4,7 @@ import OnPageContact from "@/components/OnPageContact";
 export default function SlipAndFall() {
   return (
     <Layout>
-      <section className='aop-page'>
+      <main className='page-container'>
         <section className='hero saf'></section>
         <section className='content'>
           <h1 className='title'>Premises Liability</h1>
@@ -65,7 +65,7 @@ export default function SlipAndFall() {
           </p>
           <OnPageContact bgClass='onpage_contact flex flex-center blue' />
         </section>
-      </section>
+      </main>
     </Layout>
   );
 }

@@ -17,7 +17,7 @@
       justify-content: center;
       flex-direction: column;
       font-size: 1.2rem;
-      height: 50vh;
+      min-height: 50vh;
       padding: 0 3rem;
       text-align: left;
 
@@ -29,11 +29,12 @@
 
       @include sm-mobile {
         font-weight: 400;
-        line-height: 1.2em;
       }
 
-      p:first-of-type {
+      .intro__heading {
         text-align: center;
+        font-size: 1.4rem;
+        font-weight: 500;
       }
 
       p {
@@ -106,16 +107,30 @@
           width: 100%;
         }
 
+        @include sm-mobile {
+          grid-template-columns: repeat(1, 1fr);
+        }
+
         img {
           width: 80%;
           height: 200px;
           border-radius: 5px;
+
+          @include sm-mobile {
+            margin-bottom: 1rem;
+            width: 100%;
+          }
         }
       }
 
       .card:nth-child(even) img {
         order: 2;
         margin-left: 3rem;
+
+        @include sm-mobile {
+          order: 0;
+          margin: 0 0 1rem;
+        }
       }
     }
   }

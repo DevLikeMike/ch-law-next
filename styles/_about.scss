@@ -1,0 +1,34 @@
+.about {
+  padding-top: 2rem;
+  line-height: 1.75;
+  margin: 2rem auto;
+
+  &__title {
+    font-size: 2.441rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1;
+  }
+
+  .content__container {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 0;
+
+    @include md-mobile {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .content__image {
+      min-width: 284px;
+      min-height: 400px;
+    }
+
+    .content__info {
+      p {
+        margin-bottom: 0.75em;
+      }
+    }
+  }
+}
