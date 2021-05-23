@@ -1,22 +1,17 @@
 // React/next imports
 import { useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/router";
 // Components imports
 import Hamburger from "./Hamburger";
 import SideNav from "./SideNav";
+// 3rd party Imports
+import { FaChevronDown } from "react-icons/fa";
 
 export default function Header() {
   const [sideOpen, setSideOpen] = useState(false);
 
-  const router = useRouter();
-
   const openHandler = () => {
     setSideOpen(!sideOpen);
-  };
-
-  const clickHandler = (location) => {
-    router.push(`/${location}`);
   };
 
   return (
@@ -31,15 +26,8 @@ export default function Header() {
             <a>Home</a>
           </Link>
         </li>
-        <li className='nav-item'>
-          <div
-            onClick={() => {
-              clickHandler("areasofpractice");
-            }}
-            className='pointer'
-          >
-            Areas of Practice <i className='fas fa-chevron-down'></i>
-          </div>
+        <li className='nav-item pointer'>
+          Areas of Practice <FaChevronDown style={{ marginLeft: "0.5em" }} />
           <ul className='drop-down-menu'>
             <li className='drop-item'>
               <Link href='/areasofpractice/motor-vehicle-accident'>
@@ -60,7 +48,7 @@ export default function Header() {
             }}
             className='pointer'
           >
-            About <i className='fas fa-chevron-down'></i>
+            About <FaChevronDown style={{ marginLeft: "0.5em" }} />
           </div>
           <ul className='drop-down-menu'>
             <li className='drop-item'>
