@@ -1,18 +1,10 @@
 // Next/React
-import { useEffect } from "react";
 import Link from "next/link";
 // Component import
 import Layout from "@/components/Layout";
 import OnPageContact from "@/components/OnPageContact";
-// Package layout
-// import AOS from "aos";
-// import "aos/dist/aos.css";
 
 export default function Home() {
-  // useEffect(() => {
-  //   AOS.init();
-  // }, []);
-
   return (
     <Layout>
       <main className='homescreen'>
