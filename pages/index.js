@@ -39,6 +39,7 @@ export default function Home() {
         </div>
         <section className='when-to-hire'>
           <h2>Should I Hire a Personal Injury Attorney?</h2>
+
           <div className='card-container'>
             <div
               className='card'
@@ -56,6 +57,7 @@ export default function Home() {
                 more than their initial offer. <span>Read More...</span>
               </p>
             </div>
+
             <div
               className='card'
               data-aos='fade-left'

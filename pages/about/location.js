@@ -6,7 +6,7 @@ export default function location() {
   return (
     <Layout>
       <Map />
-      <section className='aop-page'>
+      <main className='page-container'>
         <section className='content'>
           <h1 className='title'>Location</h1>
           <hr />
@@ -23,7 +23,7 @@ export default function location() {
           </p>
           <OnPageContact bgClass='onpage_contact flex flex-center blue' />
         </section>
-      </section>
+      </main>
     </Layout>
   );
 }

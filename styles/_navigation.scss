@@ -13,6 +13,10 @@ nav {
   flex-direction: row;
   box-shadow: 0 3px 3px rgba(31, 31, 31, 0.3);
 
+  @include md-mobile {
+    padding: 0 0.5em;
+  }
+
   .logo__container {
     max-height: $defaulHeight;
     flex-direction: row;
@@ -42,7 +46,7 @@ nav {
       margin-right: 3rem;
       position: relative;
       height: $defaulHeight;
-      font-size: 1.25rem;
+      font-size: 1rem;
       display: flex;
       justify-content: center;
       align-items: center;
