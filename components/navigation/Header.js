@@ -35,7 +35,7 @@ export default function Header() {
               </Link>
             </li>
             <li className='drop-item'>
-              <Link href='/areasofpractice/slip-and-fall'>
+              <Link href='/areasofpractice/premises-liability'>
                 <a>Premises Liability</a>
               </Link>
             </li>

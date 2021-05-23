@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ReactMapGL from "react-map-gl";
+import { MAP_API } from "@/config/index";
 
 export default function Map() {
   const [viewport, setViewport] = useState({
@@ -18,7 +19,7 @@ export default function Map() {
       onViewportChange={(viewport) => setViewport({ viewport })}
       className='map'
       mapStyle='mapbox://styles/mapbox/streets-v11'
-      mapboxApiAccessToken='pk.eyJ1IjoibWhhbGwtcHJvamVjdCIsImEiOiJja3AwZDVhZXMwaWl1MnRwcTd2ZGN4dWtoIn0.6JJs79epT1QWxAbudoYKjg'
+      mapboxApiAccessToken={MAP_API}
     />
   );
 }
