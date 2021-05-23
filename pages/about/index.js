@@ -1,6 +1,6 @@
 // Component import
 import Layout from "@/components/Layout";
-import OnPageContact from "@/components/onPageContact";
+import OnPageContact from "@/components/OnPageContact";
 import Image from "next/image";
 
 export default function about() {
