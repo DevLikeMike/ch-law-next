@@ -5,13 +5,13 @@ import Link from "next/link";
 import Layout from "@/components/Layout";
 import OnPageContact from "@/components/OnPageContact";
 // Package layout
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
 export default function Home() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  // useEffect(() => {
+  //   AOS.init();
+  // }, []);
 
   return (
     <Layout>
