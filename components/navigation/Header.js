@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <nav className='flex'>
       <a href='/' className='logo__container flex ai-c'>
-        <h2>Casey Hall Law</h2>
+        <h1>Casey Hall Law</h1>
         <div className='logo'></div>
       </a>
       <ul className='main-navigation flex jc-fe'>

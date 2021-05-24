@@ -17,7 +17,7 @@ export default function Home() {
             </p>
             <p>
               Whether you've been hurt due to someone's negligence, hurt in a
-              motor vehicle accident, or hurt due to poor property maintainence,
+              motor vehicle accident, or hurt due to poor property maintenance,
               you may need the services of a skilled and knowledgeable personal
               injury attorney to receive the compensation YOU deserve. If you
               are in the Eastern Kentucky Area and find your self subject to one
@@ -41,7 +41,7 @@ export default function Home() {
             >
               <img
                 src='https://images.pexels.com/photos/618158/pexels-photo-618158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-                alt='law'
+                alt='Lawyer document signing'
               />
               <p>
                 After a claim, insurance companies many want to process your
@@ -58,7 +58,7 @@ export default function Home() {
             >
               <img
                 src='https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
-                alt='law2'
+                alt='Medical Expense Photo'
               />
               <p>
                 Are you receiving medical treatment? While you might have
@@ -75,7 +75,7 @@ export default function Home() {
             >
               <img
                 src='https://images.unsplash.com/photo-1562343750-446a1e7693b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1929&q=80'
-                alt=''
+                alt='Key fob for vehicle accident'
               />
               <p>
                 Are you unable to drive to work? When your ability to drive is
