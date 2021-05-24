@@ -12,7 +12,7 @@ export default function Footer() {
           us and welcome your calls, letters and electronic mail. Contacting us
           through this site does not create an attorney-client relationship.
           Please do not send any confidential information to us until such time
-          as an attorney-client relationship has been established!
+          as an attorney-client relationship has been established.
         </p>
         <Link href='/about'>
           <a>About Us</a>

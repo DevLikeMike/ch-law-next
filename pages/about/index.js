@@ -24,7 +24,7 @@ export default function about() {
             </p>
             <p>
               Casey has been married to his wife, Ashleigh Hall of Mayking,
-              Kentucky since 2018. Together they have two amazing children
+              Kentucky since 2018. Together they have two amazing children.
             </p>
           </div>
         </div>
