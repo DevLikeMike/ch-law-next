@@ -1,5 +1,6 @@
 .onpage_contact {
   padding: 1rem;
+  margin-top: 3rem;
 
   form > input,
   form > textarea {
@@ -22,8 +23,9 @@
     }
 
     &__header {
-      font-size: 1.8rem;
+      font-size: 2.24rem;
       margin-bottom: 1rem;
+      color: #333;
     }
 
     input[type="submit"] {
@@ -49,7 +51,6 @@
 }
 
 .blue {
-  background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
   margin-bottom: 2rem;

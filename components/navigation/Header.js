@@ -1,6 +1,7 @@
 // React/next imports
 import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 // Components imports
 import Hamburger from "./Hamburger";
 import SideNav from "./SideNav";
@@ -10,15 +11,20 @@ import { FaChevronDown } from "react-icons/fa";
 export default function Header() {
   const [sideOpen, setSideOpen] = useState(false);
 
+  const router = useRouter();
+
   const openHandler = () => {
     setSideOpen(!sideOpen);
+  };
+
+  const clickHandler = (location) => {
+    router.push(`/${location}`);
   };
 
   return (
     <nav className='flex'>
       <a href='/' className='logo__container flex ai-c'>
         <h2>Casey Hall Law</h2>
-        <div className='logo'></div>
       </a>
       <ul className='main-navigation flex jc-fe'>
         <li className='nav-item'>
