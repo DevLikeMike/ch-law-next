@@ -45,7 +45,7 @@ export default function Home() {
                 alt='Lawyer document signing'
               />
               <p>
-                After a claim, insurance companies many want to process your
+                After a claim, many insurance companies want to process your
                 claim quickly and cheaply. Don't let them. You likely deserve
                 more than their initial offer. <span>Read More...</span>
               </p>
