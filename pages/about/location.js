@@ -11,9 +11,9 @@ export default function location() {
           <h1 className='title'>Location</h1>
           <hr />
           <p>
-            Casey Hall Law is a local firm dedicated to serving the Eastern
-            Kentucky area. Areas such as Pikeville, Jenkins, Hazard,
-            Fleming-Neon, Whitesburg, Mayking, and all the in between.
+            Casey Hall Attory at Law, PLLC is a local firm dedicated to serving
+            the South Eastern Kentucky area. This area including Knott, Letcher,
+            Pike, Floyd, Perry, and Harlan counties.
           </p>
           <p>
             Free consultations may be schedule to meet in person at an agreed

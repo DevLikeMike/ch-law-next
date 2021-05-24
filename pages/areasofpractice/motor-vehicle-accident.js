@@ -27,7 +27,7 @@ export default function MotorVehicleAccident() {
             all forms, ranging from “fender benders” to multi-vehicle accidents.
             Accidents on the smaller scale can usually be handled by making a
             simple insurance claim, however accidents involving significant
-            damage, fatality, or other physical injury can warrant legal
+            damage, fatality, and/or other physical injury can warrant legal
             representation.
           </p>
           <h2>Injury or loss</h2>

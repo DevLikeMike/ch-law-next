@@ -9,10 +9,10 @@ export default function SlipAndFall() {
         <section className='content'>
           <h1 className='title'>Premises Liability</h1>
           <hr />
-          <h2>When to contact lawyer for a slip and fall</h2>
+          <h2>When to contact a lawyer for a slip and fall</h2>
           <p>
-            Premise liability cover any situation in which a property owner
-            fails to maintain thier property and this results in someone getting
+            Premise liability covers any situation in which a property owner
+            fails to maintain their property and this results in someone getting
             hurt. The most common among these situations are slip and falls. A
             typical slip and fall is the result of, but not limited to, slipping
             on a wet or icy floor. Premise liability can cover other things
@@ -24,7 +24,7 @@ export default function SlipAndFall() {
             <li>Dog bite</li>
             <li>Swimming pool accidents</li>
             <li>Ice and snow accidents</li>
-            <li>Slip and Fall</li>
+            <li>Slip and fall</li>
           </ul>
           <h2>How Premises Liability Cases Work</h2>
           <p>
@@ -47,7 +47,7 @@ export default function SlipAndFall() {
           <p>These factors are subject to change in different jurisdictions</p>
           <h1>Proving Negligence</h1>
           <p>
-            Negligence in premises liability cases can be hard to prove. For
+            Negligence in a premises liability case can be hard to prove. For
             example, if you are a victim to a slip and fall, you must be able to
             prove that the property owner knew or should have known of the
             hazard on the premises. In some cases knowledge of the property
@@ -58,7 +58,7 @@ export default function SlipAndFall() {
           <h2>Proving Negligence was substantially part of your injury</h2>
           <p>
             Showing the defendants negligence was a substantial factor in your
-            injury, means the harm you suffered need to be a result of the
+            injury, means the harm you suffered needs to be a result of the
             action (or inaction) of the defendant. This negligence does not have
             to be the sole reason of your harm, but must martially contribute to
             the reason of harm.
