@@ -11,6 +11,7 @@ export default function Home() {
         <div className='landing'>
           <section className='hero'></section>
           <section className='intro'>
+            <h1 className='text-center'>Casey Hall Attorney at Law</h1>
             <p className='intro__heading'>
               Do you need a personal injury lawyer? Located in the Eastern
               Kentucky area? Casey Hall Law can help you in your time of need.
