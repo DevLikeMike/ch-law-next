@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer>
       <div className='container text-center'>
-        <h3>Copyright &copy; Casey Hall 2021</h3>
+        <h3>Copyright &copy; Casey Hall Attorney at Law PLLC 2021</h3>
         <p>
           Disclaimer: The information you obtain at this site is not, nor is it
           intended to be, legal advice. You should consult an attorney for
