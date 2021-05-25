@@ -14,6 +14,7 @@ export default function Footer() {
           Please do not send any confidential information to us until such time
           as an attorney-client relationship has been established.
         </p>
+        <h4>This is an advertisement.</h4>
         <Link href='/about'>
           <a>About Us</a>
         </Link>
