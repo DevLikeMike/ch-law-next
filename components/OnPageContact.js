@@ -46,7 +46,7 @@ export default function OnPageContact({ bgClass }) {
         onSubmit={handleSubmit(onSubmit)}
         autoComplete='off'
       >
-        <h1 className='contact__form__header text-center'>Contact Us</h1>
+        <h2 className='onpage_contact__form__header text-center'>Contact Us</h2>
         <input
           type='text'
           name='firstName'
