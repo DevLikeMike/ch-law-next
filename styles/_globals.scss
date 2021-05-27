@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap");
 
 $defaulHeight: 6vh;
 $navMargin: 5vw;
 $primaryColor: #101056;
 $secondaryColor: #1f1f9e;
+$headingColor: #339ad5;
 $gold: #eaa80c;
 $lightgold: #ffe031;
 $offWhite: #f0f0f0;
+$xl-mobile: 1050px;
 $lg-mobile: 900px;
 $md-mobile: 715px;
 $sm-mobile: 500px;
@@ -23,6 +26,7 @@ html,
 textarea {
   font-family: "Poppins", sans-serif;
   font-size: 100%;
+  line-height: 1.5;
 }
 
 li {
@@ -63,6 +67,10 @@ a {
   justify-content: flex-end;
 }
 
+.jc-sb {
+  justify-content: space-around;
+}
+
 .jc-fs {
   justify-content: flex-start;
 }
@@ -97,6 +105,11 @@ main {
   padding-bottom: 3rem;
 }
 
+@mixin xl-mobile {
+  @media (max-width: #{$xl-mobile}) {
+    @content;
+  }
+}
 @mixin lg-mobile {
   @media (max-width: #{$lg-mobile}) {
     @content;

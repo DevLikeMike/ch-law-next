@@ -5,7 +5,7 @@ export default function SlipAndFall() {
   return (
     <Layout>
       <main className='page-container'>
-        <section className='hero saf'></section>
+        <section className='showcase saf'></section>
         <section className='content'>
           <h1 className='title'>Premises Liability</h1>
           <hr />
@@ -45,7 +45,7 @@ export default function SlipAndFall() {
             </li>
           </ul>
           <p>These factors are subject to change in different jurisdictions</p>
-          <h1>Proving Negligence</h1>
+          <h2>Proving Negligence</h2>
           <p>
             Negligence in a premises liability case can be hard to prove. For
             example, if you are a victim to a slip and fall, you must be able to
@@ -63,8 +63,8 @@ export default function SlipAndFall() {
             to be the sole reason of your harm, but must martially contribute to
             the reason of harm.
           </p>
-          <OnPageContact bgClass='onpage_contact flex flex-center blue' />
         </section>
+        <OnPageContact />
       </main>
     </Layout>
   );

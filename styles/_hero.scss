@@ -1,0 +1,42 @@
+.hero {
+  height: 40vh;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1609928789270-3a1d3a1dfd17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 40%;
+  position: relative;
+  padding: 0 3rem;
+
+  h1 {
+    font-size: 3.052rem;
+    font-weight: 500;
+    position: relative;
+    color: #fff;
+  }
+
+  .contact-us {
+    position: relative;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    padding: 0.5rem 2rem;
+    margin-top: 3rem;
+    transition: 0.3s;
+  }
+
+  .contact-us:hover {
+    background-color: #fff;
+    color: #333;
+  }
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(58, 83, 138, 0.795);
+}

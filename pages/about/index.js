@@ -6,12 +6,10 @@ import Image from "next/image";
 export default function about() {
   return (
     <Layout>
-      <main className='mt-df p3-x about'>
-        <h2 className='about__title'>About Casey Hall</h2>
+      <main className='p3-x about'>
+        <h2 className='about__title'>Casey Hall</h2>
+        <hr />
         <div className='content__container'>
-          <div className='content__image'>
-            <Image src={`/images/ch_about.jpg`} width={284} height={400} />
-          </div>
           <div className='content__info'>
             <p>
               Casey Hall is a lifelong resident of Letcher County, Kentucky.
@@ -29,9 +27,14 @@ export default function about() {
               with his wife and kids.
             </p>
           </div>
+          <div className='content__image'>
+            <Image src={`/images/ch_about.jpg`} width={284} height={400} />
+          </div>
         </div>
 
-        <OnPageContact bgClass='onpage_contact flex flex-center blue' />
+        <hr className='end-page' />
+
+        <OnPageContact />
       </main>
     </Layout>
   );

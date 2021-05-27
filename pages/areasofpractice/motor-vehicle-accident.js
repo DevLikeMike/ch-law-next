@@ -8,7 +8,7 @@ export default function MotorVehicleAccident() {
       description='Casey Hall Law personal injury lawyer specializes in motor vehicle accidents. Helping Reach a just and speedy resolution for your case.'
     >
       <main className='page-container'>
-        <section className='hero mvh'></section>
+        <section className='showcase mvh'></section>
         <section className='content'>
           <h1 className='title'>Motor Vehicle Accident</h1>
           <hr />
@@ -85,8 +85,8 @@ export default function MotorVehicleAccident() {
             Casey Hall Law will do everything to make sure you get the
             settlement best fit for your accident.
           </p>
-          <OnPageContact bgClass='onpage_contact flex flex-center blue' />
         </section>
+        <OnPageContact />
       </main>
     </Layout>
   );

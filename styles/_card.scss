@@ -1,0 +1,81 @@
+.when-to-hire {
+  margin: 1rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: $headingColor;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 2.2rem;
+    margin: 1rem auto 0;
+
+    @include sm-mobile {
+      text-align: center;
+    }
+  }
+
+  h3 {
+    font-size: 1.66rem;
+    margin-bottom: 0.125em;
+  }
+
+  .card-container {
+    margin: 1rem auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    .card {
+      padding: 0 1rem;
+      margin: 1rem auto 1rem 3rem;
+      width: 100%;
+      max-width: 60rem;
+      font-size: 1em;
+
+      @include xl-mobile {
+        margin: 1rem auto;
+      }
+
+      p {
+        margin-bottom: 0.5rem;
+        color: #333;
+      }
+
+      span {
+        display: block;
+        color: rgb(62, 135, 245);
+      }
+
+      span:hover {
+        color: $primaryColor;
+      }
+
+      @include lg-mobile {
+        width: 100%;
+      }
+
+      @include sm-mobile {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    .card:nth-child(even) {
+      margin: 1rem 3rem 1rem auto;
+
+      @include xl-mobile {
+        margin: 1rem auto;
+      }
+    }
+  }
+}

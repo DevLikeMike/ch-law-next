@@ -1,14 +1,11 @@
-.map {
-  margin-top: $defaulHeight;
-}
-
 .contact {
-  margin-top: 3rem;
+  margin-top: 1rem;
   padding: 1rem $navMargin;
 
   &__header {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: $headingColor;
   }
 
   &__subHeader {
@@ -19,7 +16,7 @@
   hr {
     border: none;
     height: 1px;
-    background-color: #303030;
+    background-color: $headingColor;
     margin-top: 1rem;
   }
 
@@ -33,6 +30,7 @@
     flex: 2.5;
     &__header {
       margin: 1rem;
+      color: $headingColor;
     }
 
     input,
@@ -46,6 +44,14 @@
 
     textarea {
       min-height: 7rem;
+    }
+
+    span {
+      font-size: 0.8em;
+      padding: 0.2rem;
+      color: red;
+      display: inline-block;
+      transform: translateY(-10px);
     }
 
     input[type="submit"] {
@@ -73,12 +79,16 @@
     background-color: #fff;
     box-shadow: 0 0 15px 5px rgba($color: #303030, $alpha: 0.2);
 
+    h2 {
+      color: $headingColor;
+    }
+
     @include lg-mobile {
       margin: 1rem auto;
     }
 
     .card__phone {
-      color: $primaryColor;
+      color: #333;
 
       i {
         margin-right: 0.5em;

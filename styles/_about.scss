@@ -1,5 +1,4 @@
 .about {
-  padding-top: 2rem;
   line-height: 1.75;
   margin: 2rem auto;
 
@@ -8,16 +7,31 @@
     font-weight: 400;
     text-align: center;
     line-height: 1;
+    color: $headingColor;
+  }
+
+  hr {
+    border: none;
+    background-color: $headingColor;
+    height: 2px;
+    width: 80%;
+    margin: 0 auto 2rem;
   }
 
   .content__container {
     display: flex;
-    gap: 1.5rem;
+    gap: 6rem;
     margin: 1rem 0;
 
-    @include md-mobile {
+    @include lg-mobile {
       flex-direction: column;
       align-items: center;
+
+      gap: 1rem;
+
+      .content__image {
+        order: -1;
+      }
     }
 
     .content__image {
@@ -31,4 +45,15 @@
       }
     }
   }
+
+  .end-page {
+    width: 100%;
+    background-color: #333;
+    margin: 0;
+  }
+}
+
+.page-container .location-content {
+  margin-top: 1rem;
+  padding: 3rem;
 }

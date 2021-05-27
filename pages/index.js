@@ -3,88 +3,53 @@ import Link from "next/link";
 // Component import
 import Layout from "@/components/Layout";
 import OnPageContact from "@/components/OnPageContact";
+import Card from "@/components/Card";
 
 export default function Home() {
   return (
     <Layout>
       <main className='homescreen'>
-        <div className='landing'>
-          <section className='hero'></section>
-          <section className='intro'>
-            <h1 className='text-center'>Casey Hall Attorney at Law</h1>
-            <p className='intro__heading'>
-              Do you need a personal injury lawyer? Located in the Eastern
-              Kentucky area? Casey Hall Law can help you in your time of need.
-            </p>
-            <p>
-              Whether you've been hurt due to someone's negligence, hurt in a
-              motor vehicle accident, or hurt due to poor property maintenance,
-              you may need the services of a skilled and knowledgeable personal
-              injury attorney to receive the compensation YOU deserve. If you
-              are in the Eastern Kentucky Area and find your self subject to one
-              or more of these situations please schedule your free consultation
-              today.
-            </p>
-            <Link href='/contact' className='contact-us'>
-              <a className='contact-us'>Contact Us</a>
-            </Link>
-          </section>
-        </div>
+        <section className='hero flex flex-center col'>
+          <h1 className='text-center'>
+            <i>Let Us Fight For You</i>
+          </h1>
+          <Link href='/contact'>
+            <a className='contact-us'>Contact Us</a>
+          </Link>
+        </section>
         <section className='when-to-hire'>
-          <h2>Should I Hire a Personal Injury Attorney?</h2>
+          <h2 className='text-center'>
+            Should I Hire a Personal Injury Attorney?
+          </h2>
 
           <div className='card-container'>
-            <div
-              className='card'
-              data-aos='fade-right'
-              data-aos-once='true'
-              data-aos-duration='700'
-            >
-              <img
-                src='https://images.pexels.com/photos/618158/pexels-photo-618158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-                alt='Lawyer document signing'
-              />
-              <p>
-                After a claim, many insurance companies want to process your
+            <Card
+              side='right'
+              heading='Are you dealing with insurance companies?'
+              description="After a claim, many insurance companies want to process your
                 claim quickly and cheaply. Don't let them. You likely deserve
-                more than their initial offer. <span>Read More...</span>
-              </p>
-            </div>
+                more than their initial offer. Our attorneys are dedicated to getting you the settlement you deserve. Often times you deserve more than this initial offer, and our attorneys are trained to get you what you need."
+              link='/about'
+            />
 
-            <div
-              className='card'
-              data-aos='fade-left'
-              data-aos-once='true'
-              data-aos-duration='700'
-            >
-              <img
-                src='https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
-                alt='Medical Expense Photo'
-              />
-              <p>
-                Are you receiving medical treatment? While you might have
-                options paying for medical treatment cost through a personal
-                insurance policy, this may become overwhelming and prevent you
-                from getting the treatment you need. <span>Read More...</span>
-              </p>
-            </div>
-            <div
-              className='card'
-              data-aos='fade-right'
-              data-aos-once='true'
-              data-aos-duration='700'
-            >
-              <img
-                src='https://images.unsplash.com/photo-1562343750-446a1e7693b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1929&q=80'
-                alt='Key fob for vehicle accident'
-              />
-              <p>
-                Are you unable to drive to work? When your ability to drive is
-                impacted, your entire life changes. We can help resolve your
-                claim, or file a law suit to help move you forward.
-                <span>Read More...</span>
-              </p>
-            </div>
+            <Card
+              side='left'
+              heading='Are you on medical treatment?'
+              description='Are you receiving medical treatment? While you might have
+              options paying for medical treatment costs through a personal
+              insurance policy, this may become overwhelming and prevent you
+              from getting the treatment you need. Let our attorneys fight for you while you rest and recover. It is our mission to make this legal process as easy as possible for you.'
+              link='/about'
+            />
+
+            <Card
+              side='right'
+              heading='Are you unable to drive?'
+              description='Are you unable to drive to work? When your ability to drive is
+              impacted, your entire life changes. Driving is an essential part of our lives, and you deserve to be compensated if your injury limits this fromyou. We can help resolve your
+              claim, or file a law suit to help move you forward.'
+              link='/about'
+            />
           </div>
         </section>
         <OnPageContact />

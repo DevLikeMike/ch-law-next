@@ -3,40 +3,20 @@ nav {
   height: $defaulHeight;
   max-height: $defaulHeight;
   width: 100vw;
-  background-color: $primaryColor;
-  color: #fff;
-  position: fixed;
-  top: 0;
-  border-bottom: 3px $gold solid;
+  background-color: #fff;
+  color: #333;
   z-index: 200;
-  justify-content: space-between;
   flex-direction: row;
 
   @include md-mobile {
     padding: 0 0.5em;
   }
 
-  .logo__container {
-    max-height: $defaulHeight;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    transition: 0.2s;
-
-    h2 {
-      font-weight: 500;
-      font-size: 1.85rem;
-    }
-  }
-
-  .logo__container:hover {
-    color: $lightgold;
-  }
-
   .main-navigation {
     max-width: 50%;
 
     .nav-item {
-      margin-right: 3rem;
+      padding: 0 1.5rem;
       position: relative;
       height: $defaulHeight;
       font-size: 1.125rem;
@@ -45,14 +25,22 @@ nav {
       align-items: center;
       color: inherit;
       white-space: nowrap;
+      text-transform: uppercase;
 
       @include lg-mobile {
         display: none;
       }
     }
 
-    .nav-item:nth-last-of-type(1) {
-      margin-right: 0;
+    .nav-item:nth-of-type(1):after,
+    .nav-item:nth-of-type(2):after,
+    .nav-item:nth-of-type(3):after {
+      content: "";
+      position: absolute;
+      right: 0;
+      width: 1px;
+      height: 50%;
+      background-color: #333;
     }
 
     .nav-item > i {
@@ -65,23 +53,22 @@ nav {
     }
 
     .nav-item:hover {
-      color: $lightgold;
+      color: $headingColor;
     }
 
     .drop-down-menu {
       position: absolute;
       top: $defaulHeight;
-      left: -2rem;
-      min-width: 200px;
+      min-width: 250px;
       transition: 0.5s;
       background-color: #ffffff;
       color: #000;
       opacity: 0;
       border: 1px solid rgba(31, 31, 31, 0.3);
-      border-radius: 8px;
       pointer-events: none;
       font-size: 0.875rem;
       overflow: hidden;
+      z-index: 100;
     }
 
     .drop-item {
@@ -100,7 +87,7 @@ nav {
     }
 
     .drop-item a:hover {
-      background-color: $secondaryColor;
+      background-color: $headingColor;
       color: #fff;
     }
   }
@@ -108,11 +95,13 @@ nav {
   .hamburger-container {
     height: 2rem;
     width: 2rem;
-    position: relative;
+    position: absolute;
+    right: 0;
+    top: 20vh;
     margin: 0.5rem 1rem;
     cursor: pointer;
     display: none;
-    z-index: 200;
+    z-index: 210;
 
     @include lg-mobile {
       display: block;
@@ -125,7 +114,7 @@ nav {
       left: 0;
       opacity: 1;
       z-index: 1;
-      background-color: $gold;
+      background-color: #000;
       border-radius: 9px;
       transform: rotate(0deg);
       transition: 0.24s ease-in-out;
@@ -180,6 +169,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 200;
 
     .sideNav-item {
       margin: 1rem 0;
@@ -204,12 +194,41 @@ nav {
     }
 
     .sideNav-item:hover {
-      color: $gold;
+      color: $headingColor;
     }
   }
 
   .sideNav.open {
     left: 0;
+  }
+}
+
+.banner {
+  background-color: $headingColor;
+  min-height: 20vh;
+
+  img {
+    width: 40%;
+    padding-left: 3rem;
+
+    @include lg-mobile {
+      width: 100%;
+      padding: 0 3rem;
+    }
+  }
+
+  &_disclaimer {
+    width: 40%;
+    color: #fff;
+    text-align: center;
+
+    h2 {
+      font-size: 1.85rem;
+    }
+
+    @include lg-mobile {
+      display: none;
+    }
   }
 }
 

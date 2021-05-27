@@ -43,45 +43,94 @@ export default function OnPageContact({ bgClass }) {
       <form
         onSubmit={handleSubmit(onSubmit)}
         className='onpage_contact__form flex jc-fs col'
+        onSubmit={handleSubmit(onSubmit)}
         autoComplete='off'
       >
-        <h2 className='onpage_contact__form__header text-center'>Contact Us</h2>
+        <h1 className='contact__form__header text-center'>Contact Us</h1>
         <input
           type='text'
           name='firstName'
           placeholder='First Name (required)'
           // Register is from react-hook-form, first param is name field, second options
-          {...register("firstName", { required: true, maxLength: 20 })}
+          {...register("firstName", {
+            required: {
+              value: true,
+              message: "You must enter a first name.",
+            },
+            maxLength: {
+              value: 20,
+              message: "First name cannot be longer than 20 characters.",
+            },
+          })}
         />
+        <span>{errors?.firstName?.message}</span>
         <input
           type='text'
           name='lastName'
           placeholder='Last Name (required)'
-          {...register("lastName", { required: true, maxLength: 40 })}
-          required
+          {...register("lastName", {
+            required: {
+              value: true,
+              message: "You must enter a last name.",
+            },
+            maxLength: {
+              value: 20,
+              message: "Last name cannot be longer than 20 characters.",
+            },
+          })}
         />
+        <span>{errors?.lastName?.message}</span>
         <input
           type='text'
           name='phone'
           placeholder='Phone Number (required)'
-          {...register("phone", { required: true, maxLength: 20 })}
-          required
+          {...register("phone", {
+            required: {
+              value: true,
+              message: "You must enter a phone number.",
+            },
+            maxLength: {
+              value: 20,
+              message: "Phone Number cannot be longer than 20 characters.",
+            },
+          })}
         />
+        <span>{errors?.phone?.message}</span>
         <input
           type='email'
           name='email'
-          placeholder='Email address (required)'
-          {...register("email", { required: true, maxLength: 40 })}
+          placeholder='Email (required)'
+          {...register("email", {
+            required: {
+              value: true,
+              message: "You must enter an email",
+            },
+            maxLength: {
+              value: 40,
+              message: "Email cannot be longer than 40 characters.",
+            },
+          })}
         />
+        <span>{errors?.email?.message}</span>
         <textarea
           name='message'
           placeholder='Brief details about your case.'
           {...register("message", {
-            required: true,
-            maxLength: 1000,
-            minLength: 25,
+            required: {
+              value: true,
+              message: "You must enter a message.",
+            },
+            maxLength: {
+              value: 1000,
+              message: "Your message cannot be longer than 1000 characters.",
+            },
+            minLength: {
+              value: 25,
+              message: "Your message must be atleast 25 characters long.",
+            },
           })}
         ></textarea>
+        <span>{errors?.message?.message}</span>
         <input type='submit' value='GET STARTED' />
       </form>
     </section>

@@ -1,5 +1,7 @@
 // React/next imports
 import Head from "next/head";
+import Link from "next/link";
+import { FaPhoneAlt } from "react-icons/fa";
 // Component imports
 import Header from "./navigation/Header";
 import Footer from "./Footer";
@@ -31,6 +33,23 @@ export default function Layout({ title, keywords, description, children }) {
           type='image/png'
         />
       </Head>
+
+      <div className='banner flex jc-sb ai-c'>
+        <Link href='/'>
+          <img src='/images/logo.svg' alt='logo' className='pointer' />
+        </Link>
+        <div className='banner_disclaimer flex col jc-c'>
+          <p>
+            All consultations are FREE. Let us fight the insurance companies for
+            you, we don't get paid unless we win your case.
+          </p>
+          <h2>
+            {" "}
+            <FaPhoneAlt style={{ marginRight: "1rem" }} />
+            Call now (606)-671-7276
+          </h2>
+        </div>
+      </div>
 
       <Header />
 

@@ -1,6 +1,4 @@
 .page-container {
-  margin-top: $defaulHeight;
-
   .content {
     padding: 0 3rem;
   }
@@ -14,7 +12,7 @@
   }
 
   h2 {
-    color: $primaryColor;
+    color: $headingColor;
     font-size: 1.85rem;
   }
 
@@ -26,13 +24,13 @@
   }
 
   .title {
-    color: #333;
+    color: $headingColor;
     margin: 1rem 0 0;
     font-size: 2.2rem;
   }
 
-  .hero {
-    height: 75vh;
+  .showcase {
+    height: 40vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,11 +38,12 @@
     margin-top: var(--defaultHeight);
     background-attachment: fixed;
   }
-  .hero.mvh {
+
+  .showcase.mvh {
     background-image: url("../public/images/crashtest.jpg");
   }
 
-  .hero.saf {
+  .showcase.saf {
     background-image: url("../public/images/slipfall.jpg");
   }
 }

@@ -22,11 +22,8 @@ export default function Header() {
   };
 
   return (
-    <nav className='flex'>
-      <a href='/' className='logo__container flex ai-c'>
-        <h2>Casey Hall Law</h2>
-      </a>
-      <ul className='main-navigation flex jc-fe'>
+    <nav className='flex ai-c jc-sb'>
+      <ul className='main-navigation flex jc-c'>
         <li className='nav-item'>
           <Link href='/'>
             <a>Home</a>
@@ -54,7 +51,8 @@ export default function Header() {
             }}
             className='pointer'
           >
-            About <FaChevronDown style={{ marginLeft: "0.5em" }} />
+            About Our Attorneys{" "}
+            <FaChevronDown style={{ marginLeft: "0.5em" }} />
           </div>
           <ul className='drop-down-menu'>
             <li className='drop-item'>

@@ -7,12 +7,12 @@ export default function location() {
     <Layout>
       <Map />
       <main className='page-container'>
-        <section className='content'>
+        <section className='location-content'>
           <h1 className='title'>Location</h1>
           <hr />
           <p>
             Casey Hall Attory at Law, PLLC is a local firm dedicated to serving
-            the South Eastern Kentucky area. This area includes Knott, Letcher,
+            the South Eastern Kentucky area. This area includes Letcher, Knott,
             Pike, Floyd, Perry, and Harlan counties.
           </p>
           <p>

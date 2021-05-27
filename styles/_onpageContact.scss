@@ -15,6 +15,14 @@
     min-height: 7rem;
   }
 
+  span {
+    font-size: 0.8em;
+    padding: 0.2rem;
+    color: red;
+    display: inline-block;
+    transform: translateY(-10px);
+  }
+
   &__form {
     width: 80%;
     @include md-mobile {
@@ -29,7 +37,8 @@
     }
 
     input[type="submit"] {
-      background-color: $primaryColor;
+      background-color: $headingColor;
+      border: none;
       color: #fff;
       width: 30em;
       height: 4em;
@@ -44,7 +53,7 @@
     }
 
     input[type="submit"]:hover {
-      background-color: $secondaryColor;
+      opacity: 0.8;
       transform: scale(0.9);
     }
   }
