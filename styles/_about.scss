@@ -23,6 +23,12 @@
     gap: 6rem;
     margin: 1rem 0;
 
+    padding: 0 3rem;
+
+    @include md-mobile {
+      padding: 0 1rem;
+    }
+
     @include lg-mobile {
       flex-direction: column;
       align-items: center;
@@ -39,10 +45,8 @@
       min-height: 400px;
     }
 
-    .content__info {
-      p {
-        margin-bottom: 0.75em;
-      }
+    .content__info p {
+      margin-bottom: 0.75em;
     }
   }
 

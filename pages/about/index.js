@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function about() {
   return (
     <Layout>
-      <main className='p3-x about'>
+      <main className='about'>
         <h2 className='about__title'>Casey Hall</h2>
         <hr />
         <div className='content__container'>
@@ -33,9 +33,8 @@ export default function about() {
         </div>
 
         <hr className='end-page' />
-
-        <OnPageContact />
       </main>
+      <OnPageContact />
     </Layout>
   );
 }
