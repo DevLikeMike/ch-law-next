@@ -12,8 +12,17 @@ export default function Layout({ title, keywords, description, children }) {
     <div>
       <Head>
         <title>{title}</title>
+        <meta name='title' content='Casey Hall Attorney at Law, PLLC' />
         <meta name='description' content={description} />
         <meta name='keywords' content={keywords} />
+
+        <meta property='og:type' content='website' />
+        <meta property='og:title' content={title} />
+        <meta property='og:description' content={desciption} />
+
+        <meta property='twitter:title' content={title} />
+        <meta property='twitter:description' content={desciption} />
+
         <link rel='icon' href='/favicons/favicon.ico' />
         <link
           href='/favicons/apple-touch-icon.png'
@@ -60,9 +69,9 @@ export default function Layout({ title, keywords, description, children }) {
 }
 
 Layout.defaultProps = {
-  title: "Casey Hall Law | Personal Injury Lawyer",
+  title: "Casey Hall Attorney at Law, PLLC",
   description:
     "Eastern Kentucky Personal Injury Lawyer. Casey Hall Law helps clients in the Pikeville, Jenkins, and Whitesburg areas in a wide variety of personal injury cases.",
   keywords:
-    "Lawyer, car wreck, dog bit, attorney, accident, personal injury, eastern Kentucky, KY, Fleming-Neon, Whitesburg, Pikeville",
+    "Lawyer, car wreck, dog bit, attorney, accident, personal injury, eastern Kentucky, KY, Fleming-Neon, Whitesburg, Pikeville, truck wreck, slip and fall, premises liability",
 };
