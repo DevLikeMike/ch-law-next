@@ -50,7 +50,13 @@ export default function ContactPage() {
     <Layout>
       <Map />
       <section className='contact'>
-        <h1 className='contact__header text-center'>Casey Hall Law</h1>
+        <h1 className='contact__header text-center'>
+          Casey Hall Attorney at Law, PLLC
+        </h1>
+        <h2 className='contact__phone_number text-center'>
+          Phone: 606-775-0677
+        </h2>
+        <h2 className='contact__phone_number text-center'>Fax: 606-775-0678</h2>
         <p className='contact__subHeader text-center'>
           Casey Hall law is located in Fleming Neon Kentucky and is dedicated to
           serving the surrounding areas. In-person consultations can be arranged
@@ -159,7 +165,7 @@ export default function ContactPage() {
               and the guidance you need from an experienced attorney.
             </p>
             <h1 className='card__phone text-center'>
-              <i className='fas fa-phone'></i>(606)-671-7276
+              <i className='fas fa-phone'></i>(606)-775-0677
             </h1>
           </div>
         </div>

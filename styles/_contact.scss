@@ -4,13 +4,21 @@
 
   &__header {
     font-size: 2rem;
-    margin-bottom: 1rem;
     color: $headingColor;
+    line-height: 1.25;
+  }
+
+  &__phone_number {
+    font-size: 1.5rem;
   }
 
   &__subHeader {
     line-height: 1.8rem;
     letter-spacing: normal;
+
+    @include md-mobile {
+      margin-top: 1rem;
+    }
   }
 
   hr {
@@ -55,17 +63,19 @@
     }
 
     input[type="submit"] {
-      background-color: #f50202;
+      background-color: $headingColor;
       color: #fff;
       padding: 1em;
       width: 15em;
       font-weight: 700;
-      border-radius: 999px;
+      border-radius: 8px;
+      border: none;
       cursor: pointer;
+      width: 100%;
     }
 
     input[type="submit"]:hover {
-      background-color: #43b600;
+      background-color: $secondaryColor;
     }
   }
 
@@ -94,6 +104,10 @@
         margin-right: 0.5em;
         color: #333;
       }
+    }
+
+    .card__phone:hover {
+      color: $secondaryColor;
     }
   }
 

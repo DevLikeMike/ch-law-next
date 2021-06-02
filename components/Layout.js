@@ -5,7 +5,6 @@ import { FaPhoneAlt } from "react-icons/fa";
 // Component imports
 import Header from "./navigation/Header";
 import Footer from "./Footer";
-// Style imports
 
 export default function Layout({ title, keywords, description, children }) {
   return (
@@ -18,10 +17,10 @@ export default function Layout({ title, keywords, description, children }) {
 
         <meta property='og:type' content='website' />
         <meta property='og:title' content={title} />
-        <meta property='og:description' content={desciption} />
+        <meta property='og:description' content={description} />
 
         <meta property='twitter:title' content={title} />
-        <meta property='twitter:description' content={desciption} />
+        <meta property='twitter:description' content={description} />
 
         <link rel='icon' href='/favicons/favicon.ico' />
         <link
@@ -55,7 +54,7 @@ export default function Layout({ title, keywords, description, children }) {
           <h2>
             {" "}
             <FaPhoneAlt style={{ marginRight: "1rem" }} />
-            Call now (606)-671-7276
+            Call now (606)-775-0677
           </h2>
         </div>
       </div>
