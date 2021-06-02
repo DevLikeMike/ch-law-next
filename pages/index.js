@@ -10,9 +10,10 @@ export default function Home() {
     <Layout>
       <main className='homescreen'>
         <section className='hero flex flex-center col'>
-          <h1 className='text-center'>
+          <h1 className='text-center'>Kentucky Personal Injury Lawyer</h1>
+          <p>
             <i>Let Us Fight For You</i>
-          </h1>
+          </p>
           <Link href='/contact'>
             <a className='contact-us'>Contact Us</a>
           </Link>
@@ -25,30 +26,37 @@ export default function Home() {
           <div className='card-container'>
             <Card
               side='right'
-              heading='Are you dealing with insurance companies?'
-              description="After a claim, many insurance companies want to process your
-                claim quickly and cheaply. Don't let them. You likely deserve
-                more than their initial offer. Our attorneys are dedicated to getting you the settlement you deserve. Often times you deserve more than this initial offer, and our attorneys are trained to get you what you need."
-              link='/about'
+              heading='Have you been injuried in a car accident?'
+              description='If you or someone you love, have been injuried in a car accident, or truck accident, you may need assistance with what follows. Many times insurance companies will not want to take responsibility for an accident, or will not give you the compensation you deserve. Let us fight for you in your time of need.'
+              link='/areasofpractice/car-accident'
             />
 
             <Card
               side='left'
+              heading='Are you dealing with insurance companies?'
+              description="After a claim, many insurance companies want to process your
+                claim quickly and cheaply. Don't let them. You likely deserve
+                more than their initial offer. Our attorneys are dedicated to getting you the settlement you deserve. Often times you deserve more than this initial offer, and our attorneys are trained to get you what you need."
+              link='/areasofpractice/car-accident'
+            />
+
+            <Card
+              side='right'
               heading='Are you on medical treatment?'
               description='Are you receiving medical treatment? While you might have
               options paying for medical treatment costs through a personal
               insurance policy, this may become overwhelming and prevent you
               from getting the treatment you need. Let our attorneys fight for you while you rest and recover. It is our mission to make this legal process as easy as possible for you.'
-              link='/about'
+              link='/areasofpractice/car-accident'
             />
 
             <Card
-              side='right'
+              side='left'
               heading='Are you unable to drive?'
               description='Are you unable to drive to work? When your ability to drive is
               impacted, your entire life changes. Driving is an essential part of our lives, and you deserve to be compensated if your injury limits this fromyou. We can help resolve your
               claim, or file a law suit to help move you forward.'
-              link='/about'
+              link='/areasofpractice/car-accident'
             />
           </div>
         </section>

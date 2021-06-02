@@ -1,25 +1,25 @@
 import Layout from "@/components/Layout";
 import OnPageContact from "@/components/OnPageContact";
 
-export default function MotorVehicleAccident() {
+export default function CarAccident() {
   return (
     <Layout
-      title='Casey Hall Law | Vehicle Accident'
-      description='Casey Hall Law personal injury lawyer specializes in motor vehicle accidents. Helping Reach a just and speedy resolution for your case.'
+      title='Casey Hall Law | Car Accident'
+      description='Casey Hall is a personal injury lawyer who specializes in car accidents. If you or someone you love have been seriously injury in a car accident in the Sout East Kentucky area, please contact us today!'
     >
       <main className='page-container'>
         <section className='showcase mvh'></section>
         <section className='content'>
-          <h1 className='title'>Motor Vehicle Accident</h1>
+          <h1 className='title'>Car Accident Lawyers</h1>
           <hr />
-          <h2>When to contact a Motor Vehicle Accident Lawyer</h2>
+          <h2>When To Contact a Car accident Lawyer</h2>
           <p>
-            Unfortunately, motor vehicle accidents happen every day. You may
-            feel lost after experiencing an accident, and technical law
-            terminology may add to this confusion. Hiring a personal injury or
-            motor vehicle accident lawyer can make sure you get the justice you
-            deserve. If you or a loved one have been involved in a motor vehicle
-            accident contact us immediately for your free consultation.
+            Unfortunately, car accidents happen every day. You may feel lost
+            after experiencing an accident, and technical law terminology may
+            add to this confusion. Hiring a personal injury or car accident
+            lawyer can make sure you get the justice you deserve. If you or a
+            loved one have been involved in a car accident contact us
+            immediately for your free consultation.
           </p>
           <p>
             The vast majority of personal injury claims are a direct result of
@@ -30,7 +30,7 @@ export default function MotorVehicleAccident() {
             damage, fatality, and/or other physical injury can warrant legal
             representation.
           </p>
-          <h2>Injury or loss</h2>
+          <h2>Injury or Loss</h2>
           <p>
             If you or a loved one were involved in such an accident, hiring a
             personal injury lawyer can help get compensation to cover losses you
@@ -55,13 +55,13 @@ export default function MotorVehicleAccident() {
             Injuries are not just physical, in most cases clients suffer from
             mental injuries as well. You may need therapy, or experience spiked
             anxiety when driving again. These injuries also need to be addressed
-            after a motor vehicle accident.
+            after a car accident.
           </p>
           <h2>Negligence and Cause</h2>
           <p>
-            Motor Vehicle Accidents happen for many reasons. In technical terms
-            negligence can mean “fault.” Car accidents are often the result of
-            multiple reasons. Common causes of motor vehicle accidents include:{" "}
+            Car accidents happen for many reasons. In technical terms negligence
+            can mean “fault.” Car accidents are often the result of multiple
+            reasons. Common causes of car accidents include:{" "}
           </p>
           <ul>
             <li>Fatigue</li>

@@ -28,9 +28,10 @@ export default function SideNav({ sideOpen, openHandler }) {
             }
           >
             <li className='sub-list-item' onClick={openHandler}>
-              <Link href='/areasofpractice/motor-vehicle-accident'>
-                Vehicle Accident
-              </Link>
+              <Link href='/areasofpractice/car-accident'>Car Accident</Link>
+            </li>
+            <li className='sub-list-item' onClick={openHandler}>
+              <Link href='/areasofpractice/truck-accident'>Truck Accident</Link>
             </li>
             <li className='sub-list-item' onClick={openHandler}>
               <Link href='/areasofpractice/premises-liability'>

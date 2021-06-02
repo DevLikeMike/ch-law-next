@@ -37,6 +37,11 @@
     background-position-y: 60%;
     margin-top: var(--defaultHeight);
     background-attachment: fixed;
+    position: relative;
+
+    @include md-mobile {
+      background-attachment: local;
+    }
   }
 
   .showcase.mvh {
@@ -45,5 +50,17 @@
 
   .showcase.saf {
     background-image: url("../public/images/slipfall.jpg");
+  }
+  .showcase.truck-accident {
+    background-image: url("../public/images/truck-accident.jpeg");
+  }
+  .showcase.truck-accident::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(148, 181, 253, 0.515);
   }
 }

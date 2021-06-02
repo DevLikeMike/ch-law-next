@@ -33,8 +33,13 @@ export default function Header() {
           Areas of Practice <FaChevronDown style={{ marginLeft: "0.5em" }} />
           <ul className='drop-down-menu'>
             <li className='drop-item'>
-              <Link href='/areasofpractice/motor-vehicle-accident'>
-                <a>Vehicle Accident</a>
+              <Link href='/areasofpractice/car-accident'>
+                <a>Car Accident</a>
+              </Link>
+            </li>
+            <li className='drop-item'>
+              <Link href='/areasofpractice/truck-accident'>
+                <a>Truck Accident</a>
               </Link>
             </li>
             <li className='drop-item'>
