@@ -1,6 +1,10 @@
 .page-container {
   .content {
     padding: 0 3rem;
+
+    @include md-mobile {
+      padding: 0 1rem;
+    }
   }
 
   h3,
