@@ -18,6 +18,9 @@ export default function SideNav({ sideOpen, openHandler }) {
         <li className='sideNav-item' onClick={openHandler}>
           <Link href='/about'>About</Link>
         </li>
+        <li className='sideNav-item' onClick={openHandler}>
+          <Link href='/contact'>Contact</Link>
+        </li>
         <li className='sideNav-item' onClick={onClickHandler}>
           <span className='flex flex-center'>
             Areas of Practice <FaChevronDown style={{ marginLeft: "0.5em" }} />
@@ -39,9 +42,6 @@ export default function SideNav({ sideOpen, openHandler }) {
               </Link>
             </li>
           </ul>
-        </li>
-        <li className='sideNav-item' onClick={openHandler}>
-          <Link href='/contact'>Contact</Link>
         </li>
       </ul>
     </div>

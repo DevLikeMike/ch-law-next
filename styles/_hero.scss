@@ -8,6 +8,10 @@
   position: relative;
   padding: 0 3rem;
 
+  @include md-mobile {
+    padding: 1rem;
+  }
+
   h1 {
     font-size: 2.44rem;
     font-weight: 500;

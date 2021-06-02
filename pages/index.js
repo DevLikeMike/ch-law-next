@@ -11,7 +11,7 @@ export default function Home() {
       <main className='homescreen'>
         <section className='hero flex flex-center col'>
           <h1 className='text-center'>Kentucky Personal Injury Lawyer</h1>
-          <p>
+          <p className='text-center'>
             <i>Let Us Fight For You</i>
           </p>
           <Link href='/contact'>
