@@ -54,9 +54,11 @@ export default function ContactPage() {
           Casey Hall Attorney at Law, PLLC
         </h1>
         <h2 className='contact__phone_number text-center'>
-          Phone: 606-775-0677
+          Phone: (606)775-0677
         </h2>
-        <h2 className='contact__phone_number text-center'>Fax: 606-775-0678</h2>
+        <h2 className='contact__phone_number text-center'>
+          Fax: (606)775-0678
+        </h2>
         <p className='contact__subHeader text-center'>
           Casey Hall law is located in Fleming Neon Kentucky and is dedicated to
           serving the surrounding areas. In-person consultations can be arranged
