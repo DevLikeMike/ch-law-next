@@ -67,7 +67,6 @@ export default function ContactPage() {
         <hr />
         <div className='contact__container flex'>
           <form
-            onSubmit={handleSubmit(onSubmit)}
             className='contact__form flex jc-fs col'
             onSubmit={handleSubmit(onSubmit)}
             autoComplete='off'

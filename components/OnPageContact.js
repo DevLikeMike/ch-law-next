@@ -43,7 +43,6 @@ export default function OnPageContact({ bgClass }) {
       <form
         onSubmit={handleSubmit(onSubmit)}
         className='onpage_contact__form flex jc-fs col'
-        onSubmit={handleSubmit(onSubmit)}
         autoComplete='off'
       >
         <h2 className='onpage_contact__form__header text-center'>Contact Us</h2>
