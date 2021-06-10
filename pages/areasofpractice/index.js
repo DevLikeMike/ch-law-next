@@ -1,6 +1,6 @@
 export default function AreasOfPractice() {
   return (
-    <div>
+    <Layout>
       <h1>Areas of Practice</h1>
       <h1>Areas of Practice</h1>
       <h1>Areas of Practice</h1>
@@ -8,6 +8,6 @@ export default function AreasOfPractice() {
       <h1>Areas of Practice</h1>
       <h1>Areas of Practice</h1>
       <h1>Areas of Practice</h1>
-    </div>
+    </Layout>
   );
 }

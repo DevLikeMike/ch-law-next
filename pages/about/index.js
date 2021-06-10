@@ -17,12 +17,12 @@ export default function about() {
               School. Casey attended Eastern Kentucky University where he
               graduated Magna Cum Laude. Casey went on to graduate from
               Appalachian School of Law Magna Cum Laude in 2020. After passing
-              the Kentucky bar he decided to remain home in Letcher County to
+              the Kentucky bar, he decided to remain home in Letcher County to
               practice law.
             </p>
             <p>
-              Casey has been married to his wife, Ashleigh Hall of Mayking,
-              Kentucky since 2018. Together they have two amazing children and
+              Casey has been married to his wife, Ashleigh Hall, of Mayking,
+              Kentucky since 2018. Together they have two amazing children, and
               any time away from the practice of law is focused on spending time
               with his wife and kids.
             </p>

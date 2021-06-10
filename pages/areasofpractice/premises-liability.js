@@ -29,7 +29,7 @@ export default function SlipAndFall() {
           <h2>How Premises Liability Cases Work</h2>
           <p>
             Essentially, if you feel you are a victim of a premises liability
-            cases there are key factors to consider to get your case started. If
+            case there are key factors to consider to get your case started. If
             these are proven via evidence, photos, or are still provable please
             schedule use for a free consultation today. These factors include:
           </p>
@@ -50,15 +50,15 @@ export default function SlipAndFall() {
             Negligence in a premises liability case can be hard to prove. For
             example, if you are a victim to a slip and fall, you must be able to
             prove that the property owner knew or should have known of the
-            hazard on the premises. In some cases knowledge of the property
+            hazard on the premises. In some cases, knowledge of the property
             hazard can be presumed, such as mopping a floor. In this case, the
             property owner made the floor wet and knowledge of the hazard can be
-            presumed. Again this is subject tot he jurisdiction your case is in.
+            presumed. Again this is subject to the jurisdiction your case is in.
           </p>
-          <h2>Proving Negligence was substantially part of your injury</h2>
+          <h2>Proving negligence was a substantial part of your injury</h2>
           <p>
             Showing the defendants negligence was a substantial factor in your
-            injury, means the harm you suffered needs to be a result of the
+            injury means the harm you suffered needs to be a result of the
             action (or inaction) of the defendant. This negligence does not have
             to be the sole reason of your harm, but must martially contribute to
             the reason of harm.

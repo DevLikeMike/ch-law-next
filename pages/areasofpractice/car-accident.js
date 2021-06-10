@@ -18,7 +18,7 @@ export default function CarAccident() {
             after experiencing an accident, and technical law terminology may
             add to this confusion. Hiring a personal injury or car accident
             lawyer can make sure you get the justice you deserve. If you or a
-            loved one have been involved in a car accident contact us
+            loved one have been involved in a car accident, contact us
             immediately for your free consultation.
           </p>
           <p>
@@ -26,7 +26,7 @@ export default function CarAccident() {
             car, truck, or other motor vehicle accidents. These claims come in
             all forms, ranging from “fender benders” to multi-vehicle accidents.
             Accidents on the smaller scale can usually be handled by making a
-            simple insurance claim, however accidents involving significant
+            simple insurance claim, however, accidents involving significant
             damage, fatality, and/or other physical injury can warrant legal
             representation.
           </p>
@@ -48,20 +48,21 @@ export default function CarAccident() {
             important to have the right people in your corner to ensure that you
             are taken care. Hiring a personal injury lawyer can help ease this
             stress, allowing you to rest and recover. Our law office is
-            dedicated to taking care of each and every client to the best of our
+            dedicated to taken care of each and every client to the best of our
             abilities.
           </p>
           <p>
-            Injuries are not just physical, in most cases clients suffer from
-            mental injuries as well. You may need therapy, or experience spiked
-            anxiety when driving again. These injuries also need to be addressed
-            after a car accident.
+            Injuries are not just physical. In most cases clients suffer from
+            mental injuries as well. Many people experience post traumatic
+            stress from an accident, which could result in therapy and continued
+            rising costs. These injuries also need to be addressed after a car
+            accident.
           </p>
           <h2>Negligence and Cause</h2>
           <p>
-            Car accidents happen for many reasons. In technical terms negligence
-            can mean “fault.” Car accidents are often the result of multiple
-            reasons. Common causes of car accidents include:{" "}
+            Car accidents happen for many reasons. In technical terms,
+            negligence can mean “fault.” Car accidents are often the result of
+            multiple reasons. Common causes of car accidents include:{" "}
           </p>
           <ul>
             <li>Fatigue</li>
@@ -77,13 +78,13 @@ export default function CarAccident() {
             <li>Incompentent/Inexperienced driver</li>
           </ul>
           <p>
-            These are just some of the most common, but you should not have to
-            suffer even from the smallest of causes. Our offices will conduct a
-            thorough investigation to determine cause or causes. Using evidence
-            to prove the opposing driver was negligent and at fault, thus
-            resulting in recoverable compensation called a <b>settlement</b>.
-            Casey Hall Law will do everything to make sure you get the
-            settlement best fit for your accident.
+            These are just some of the most common types of accidents, but you
+            should not have to suffer even from the smallest of causes. Our
+            offices will conduct a thorough investigation to determine cause or
+            causes. Using evidence to prove the opposing driver was negligent
+            and at fault, thus resulting in recoverable compensation called a{" "}
+            <b>settlement</b>. Casey Hall Law will do everything to make sure
+            you get the settlement best fit for your accident.
           </p>
         </section>
         <OnPageContact />

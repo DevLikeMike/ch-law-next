@@ -27,7 +27,7 @@ export default function Home() {
             <Card
               side='right'
               heading='Have you been injuried in a car accident?'
-              description='If you or someone you love, have been injuried in a car accident, or truck accident, you may need assistance with what follows. Many times insurance companies will not want to take responsibility for an accident, or will not give you the compensation you deserve. Let us fight for you in your time of need.'
+              description='If you or someone you love, have been injuried in a car or truck accident, you may need assistance with what follows. Many times insurance companies will not want to take responsibility for an accident, or will not give you the compensation you deserve. Let us fight for you in your time of need.'
               link='/areasofpractice/car-accident'
             />
 

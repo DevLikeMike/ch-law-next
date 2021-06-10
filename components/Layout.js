@@ -49,7 +49,7 @@ export default function Layout({ title, keywords, description, children }) {
         <div className='banner_disclaimer flex col jc-c'>
           <p>
             All consultations are FREE. Let us fight the insurance companies for
-            you, we don't get paid unless we win your case.
+            you - we don't get paid unless we win your case.
           </p>
           <h2>
             {" "}

@@ -60,9 +60,10 @@ export default function ContactPage() {
           Fax: (606)775-0678
         </h2>
         <p className='contact__subHeader text-center'>
-          Casey Hall law is located in Fleming Neon Kentucky and is dedicated to
-          serving the surrounding areas. In-person consultations can be arranged
-          in near by towns from Whitesburg to Pikeville.
+          Casey Hall Attorney at Law, PLLC is located in Fleming Neon, Kentucky
+          and is dedicated to serving the surrounding areas. In-person
+          consultations can be arranged in near by towns from Whitesburg to
+          Pikeville.
         </p>
         <hr />
         <div className='contact__container flex'>
