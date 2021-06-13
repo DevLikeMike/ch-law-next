@@ -77,8 +77,8 @@ export default function Header() {
             <a>Contact</a>
           </Link>
         </li>
-        <Hamburger openHandler={openHandler} sideOpen={sideOpen} />
       </ul>
+      <Hamburger openHandler={openHandler} sideOpen={sideOpen} />
       <SideNav sideOpen={sideOpen} openHandler={openHandler} />
     </nav>
   );
