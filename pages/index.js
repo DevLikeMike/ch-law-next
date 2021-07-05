@@ -43,7 +43,7 @@ export default function Home() {
             <Card
               side='right'
               heading='Are you on medical treatment?'
-              description='Are you receiving medical treatment? While you might have
+              description='While you might have
               options paying for medical treatment costs through a personal
               insurance policy, this may become overwhelming and prevent you
               from getting the treatment you need. Let our attorneys fight for you while you rest and recover. It is our mission to make this legal process as easy as possible for you.'
@@ -53,7 +53,7 @@ export default function Home() {
             <Card
               side='left'
               heading='Are you unable to drive?'
-              description='Are you unable to drive to work? When your ability to drive is
+              description='When your ability to drive is
               impacted, your entire life changes. Driving is an essential part of our lives, and you deserve to be compensated if your injury limits this fromyou. We can help resolve your
               claim, or file a law suit to help move you forward.'
               link='/areasofpractice/car-accident'
