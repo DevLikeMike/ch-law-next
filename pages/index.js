@@ -42,7 +42,7 @@ export default function Home() {
 
             <Card
               side='right'
-              heading='Are you on medical treatment?'
+              heading='Are you recieving medical treatment?'
               description='While you might have
               options paying for medical treatment costs through a personal
               insurance policy, this may become overwhelming and prevent you
