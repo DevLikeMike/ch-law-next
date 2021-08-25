@@ -39,7 +39,7 @@ export default function SlipAndFall() {
               owning, occupying, or leasing the property
             </li>
             <li>The defendant was negligent in the use of thier property</li>
-            <li>The plantiff (You) were harmed on this property</li>
+            <li>The plaintiff (You) were harmed on this property</li>
             <li>
               The defendant's negligence was substantially part of your injury
             </li>
