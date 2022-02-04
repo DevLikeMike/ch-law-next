@@ -16,13 +16,17 @@ export default async (req, res) => {
   // Check method to be POST
   if (req.method === "POST") {
     // Destruct the request body information
-    const { name, email, message, subject } = req.body;
+    const { firstName, lastName, phone, email, message, subject } = req.body;
 
     try {
       // Build the email
       sendSmtpEmail.subject = `${subject}`;
-      sendSmtpEmail.htmlContent = `<html><body><p>${message}<p></body></html>`;
-      sendSmtpEmail.sender = { name: `${name}`, email: `${email}` };
+      sendSmtpEmail.htmlContent = `<html><body><p>New Form Submission from your site</p>
+      <p><strong>First Name: </strong> ${firstName} </p>
+      <p><strong>Last Name: </strong> ${lastName} </p>
+      <p><strong>Phone: </strong> ${phone} </p>
+      <p><strong>Message: </strong> ${message} </p></body></html>`;
+      sendSmtpEmail.sender = { name: `${firstName}`, email: `${email}` };
       sendSmtpEmail.to = [{ email: `${process.env.user}` }];
 
       // Await the sendEmail function
