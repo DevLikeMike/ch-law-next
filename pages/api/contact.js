@@ -16,11 +16,11 @@ export default async (req, res) => {
   // Check method to be POST
   if (req.method === "POST") {
     // Destruct the request body information
-    const { firstName, lastName, phone, email, message, subject } = req.body;
+    const { firstName, lastName, phone, email, message } = req.body;
 
     try {
       // Build the email
-      sendSmtpEmail.subject = `${subject}`;
+      sendSmtpEmail.subject = `${firstName} ${lastName} - ${phone}`;
       sendSmtpEmail.htmlContent = `<html><body><p>New Form Submission from your site</p>
       <p><strong>First Name: </strong> ${firstName} </p>
       <p><strong>Last Name: </strong> ${lastName} </p>
