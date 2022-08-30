@@ -54,7 +54,7 @@ export default function Layout({ title, keywords, description, children }) {
           <h2>
             {" "}
             <FaPhoneAlt style={{ marginRight: "1rem" }} />
-            Call now (606)775-0677
+            <a href='tel:6067750677'>Call Now (606)775-0677</a>
           </h2>
         </div>
       </div>
