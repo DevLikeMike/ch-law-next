@@ -4,19 +4,81 @@ import Link from "next/link";
 import Layout from "@/components/Layout";
 import OnPageContact from "@/components/OnPageContact";
 import Card from "@/components/Card";
+// Package imports
+import { FaHandshake, FaMoneyBill, FaHome } from "react-icons/fa";
 
 export default function Home() {
   return (
     <Layout>
       <main className='homescreen'>
         <section className='hero flex flex-center col'>
-          <h1 className='text-center'>Kentucky Personal Injury Lawyer</h1>
+          <h2 className='text-center'>Kentucky Personal Injury Lawyer</h2>
           <p className='text-center'>
             <i>Let Us Fight For You</i>
           </p>
           <Link href='/contact'>
             <a className='contact-us'>Contact Us</a>
           </Link>
+        </section>
+        <section className='header__section'>
+          <div className='info_left'>
+            <h1>Car Accident Attorney</h1>
+            <h2>
+              Let Us Fight for Maximum Compensation - Call (606)775-0677 Now
+            </h2>
+            <p>
+              At The Law Offices of Casey Hall Law, P.L.L.C., we are dedicated
+              to righting the wrongs that car accident victims have endured. It
+              is not uncommon for an insurance company to try to get you to
+              settle for less. We will not allow this, and we are not afraid to
+              go to trial if it means giving you full compensation for your car
+              wreck. If you or a loved one were injured in a car accident in
+              Whitesburg, Kentucky or a nearby area, please contact us today.
+              The sooner you contact us, the sooner we can begin fighting for
+              your deserved compensation. Rest assured that when you choose
+              Casey Hall Law, we will provide the fierce legal action to your
+              case's needs and the representation you deserve.
+            </p>
+          </div>
+
+          <div className='info_right'>
+            <h2>WHAT SETS US APART?</h2>
+
+            <section className='right_section'>
+              <h3>
+                <FaHandshake /> Cost Free until We Win
+              </h3>
+              <p>
+                We offer free consultations. We fight for you until we make a
+                recovery and we won't charge you a dime until your case is
+                closed. We win together.
+              </p>
+            </section>
+
+            <section className='right_section'>
+              <h3>
+                <FaMoneyBill /> We Will Maximize Your Recovery
+              </h3>
+              <p>
+                It can be hard to stand up to large insurance companies, and
+                they may tell you they cannot offer more. Let us fight for you
+                and your recovery. We are not scare to stand up to these
+                companies and demand what you deserve.
+              </p>
+            </section>
+
+            <section className='right_section'>
+              <h3>
+                <FaHome /> A Local Attorney You Can Trust
+              </h3>
+              <p>
+                We are based locally out of Fleming Neon, Kentucky. We are in
+                the community making a difference and want to see our community
+                thrive and grow. We will make sure you get the settlement you
+                deserve!
+              </p>
+            </section>
+          </div>
         </section>
         <section className='when-to-hire'>
           <h2 className='text-center'>

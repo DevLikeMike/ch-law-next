@@ -72,10 +72,12 @@
       border: none;
       cursor: pointer;
       width: 100%;
+      transition: 0.25s;
     }
 
     input[type="submit"]:hover {
-      background-color: $secondaryColor;
+      opacity: 0.8;
+      transform: scale(0.9);
     }
   }
 
@@ -107,7 +109,7 @@
     }
 
     .card__phone:hover {
-      color: $secondaryColor;
+      color: $headingColor;
     }
   }
 

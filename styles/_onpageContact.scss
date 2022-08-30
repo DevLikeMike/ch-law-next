@@ -2,6 +2,10 @@
   padding: 1rem;
   margin-top: 3rem;
 
+  @include sm-mobile {
+    padding: 1rem 0;
+  }
+
   form > input,
   form > textarea {
     margin-bottom: 1rem;
@@ -25,9 +29,14 @@
 
   &__form {
     width: 80%;
+    max-width: 75rem;
     @include md-mobile {
       width: 100%;
       padding: 1rem;
+    }
+
+    @include sm-mobile {
+      padding: 1rem 0.25rem;
     }
 
     &__header {

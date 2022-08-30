@@ -1,3 +1,69 @@
 .homescreen {
   min-width: 100vw;
+
+  .header__section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 95rem;
+
+    @include sm-desktop {
+      padding: 0 1rem;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 1rem;
+    }
+
+    h1 {
+      font-size: 2.75rem;
+
+      @include md-mobile {
+        font-size: 1.7rem;
+      }
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: $headingColor;
+    }
+    // Left side
+    .info_left {
+      flex-basis: 45%;
+
+      h2 {
+        font-weight: 300;
+      }
+    }
+
+    .info_right {
+      flex-basis: 45%;
+
+      .right_section {
+        margin-bottom: 1rem;
+        h3 {
+          display: flex;
+          align-items: center;
+
+          svg {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
 }

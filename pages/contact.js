@@ -167,7 +167,8 @@ export default function ContactPage() {
               and the guidance you need from an experienced attorney.
             </p>
             <h1 className='card__phone text-center'>
-              <i className='fas fa-phone'></i>(606)775-0677
+              <i className='fas fa-phone'></i>
+              <a href='tel:6067750677'>(606)775-0677</a>
             </h1>
           </div>
         </div>

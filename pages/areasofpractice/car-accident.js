@@ -5,12 +5,12 @@ export default function CarAccident() {
   return (
     <Layout
       title='Casey Hall Law | Car Accident'
-      description='Casey Hall is a personal injury lawyer who specializes in car accidents. If you or someone you love have been seriously injury in a car accident in the Sout East Kentucky area, please contact us today!'
+      description='Casey Hall is a personal injury lawyer who specializes in car accidents. If you or someone you love have been seriously injury in a car accident in the South East Kentucky area, please contact us today! We are serving the Whitesburg area and all neighboring areas.'
     >
       <main className='page-container'>
         <section className='showcase mvh'></section>
         <section className='content'>
-          <h1 className='title'>Car Accident Lawyers</h1>
+          <h1 className='title'>Car Accident Lawyers in Eastern Kentucky</h1>
           <hr />
           <h2>When To Contact a Car accident Lawyer</h2>
           <p>
