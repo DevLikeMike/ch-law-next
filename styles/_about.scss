@@ -60,4 +60,7 @@
 .page-container .location-content {
   margin-top: 1rem;
   padding: 3rem;
+  @include sm-mobile {
+    padding: 0.5rem;
+  }
 }

@@ -46,6 +46,12 @@ export default function OnPageContact({ bgClass }) {
         autoComplete='off'
       >
         <h2 className='onpage_contact__form__header text-center'>Contact Us</h2>
+        <h3 className='text-center'>
+          Call Us: <a href='tel:6067750677'>(606)775-0677</a>
+        </h3>
+        <h3 className='text-center address'>
+          Location: 23 E Main St. Whitesburg, Kentucky 41858
+        </h3>
         <input
           type='text'
           name='firstName'

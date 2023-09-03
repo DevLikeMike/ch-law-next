@@ -2,6 +2,23 @@
   padding: 1rem;
   margin-top: 3rem;
 
+  // Call us and Address styling
+  h3 {
+    font-size: 1.75em;
+    margin-bottom: 0.25rem;
+    color: black;
+    font-weight: 600;
+
+    a {
+      color: $headingColor;
+    }
+  }
+
+  h3.address {
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+  }
+
   @include sm-mobile {
     padding: 1rem 0;
   }
@@ -41,7 +58,7 @@
 
     &__header {
       font-size: 2.4rem;
-      margin-bottom: 1rem;
+      margin-bottom: 0.25rem;
       color: $headingColor;
     }
 

@@ -11,9 +11,9 @@ export default function location() {
           <h1 className='title'>Location</h1>
           <hr />
           <p>
-            Casey Hall Attorney at Law, PLLC is a local firm dedicated to
-            serving the Eastern Kentucky area. This area includes Letcher,
-            Knott, Pike, Floyd, Perry, and Harlan Counties.
+            Casey Hall Attorney at Law, PLLC, is located directly across the
+            street from the Whitesburg Fire Department at 23 E Main St,
+            Whitesburg, Kentucky.
           </p>
           <p>
             Free consultations may be scheduled to meet in person at an agreed

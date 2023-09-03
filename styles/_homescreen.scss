@@ -44,6 +44,10 @@
     // Left side
     .info_left {
       flex-basis: 45%;
+      padding: 1em;
+      @include md-mobile {
+        padding: 0.5em;
+      }
 
       h2 {
         font-weight: 300;
@@ -52,6 +56,10 @@
 
     .info_right {
       flex-basis: 45%;
+      padding: 1em;
+      @include md-mobile {
+        padding: 0.5em;
+      }
 
       .right_section {
         margin-bottom: 1rem;

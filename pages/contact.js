@@ -54,16 +54,17 @@ export default function ContactPage() {
           Casey Hall Attorney at Law, PLLC
         </h1>
         <h2 className='contact__phone_number text-center'>
+          Address: <span>23 E Main St. Whitesburg, Kentucky 41858</span>
+        </h2>
+        <h2 className='contact__phone_number text-center'>
           Phone: (606)775-0677
         </h2>
         <h2 className='contact__phone_number text-center'>
           Fax: (606)775-0678
         </h2>
-        <p className='contact__subHeader text-center'>
-          Casey Hall Attorney at Law, PLLC is located in Fleming Neon, Kentucky
-          and is dedicated to serving the surrounding areas. In-person
-          consultations can be arranged in near by towns from Whitesburg to
-          Pikeville.
+        <p className='contact__subHeader text-left'>
+          Casey Hall Attorney at Law, PLLC, is located directly across the
+          street from the Whitesburg Fire Department
         </p>
         <hr />
         <div className='contact__container flex'>

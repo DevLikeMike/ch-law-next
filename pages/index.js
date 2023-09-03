@@ -72,8 +72,8 @@ export default function Home() {
                 <FaHome /> A Local Attorney You Can Trust
               </h3>
               <p>
-                We are based locally out of Fleming Neon, Kentucky. We are in
-                the community making a difference and want to see our community
+                We are based locally out of Whitesburg, Kentucky. We are in the
+                community making a difference and want to see our community
                 thrive and grow. We will make sure you get the settlement you
                 deserve!
               </p>
