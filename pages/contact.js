@@ -78,7 +78,7 @@ export default function ContactPage() {
               type='text'
               name='firstName'
               placeholder='First Name (required)'
-              // Register is from react-hook-form, first param is name field, second options
+              // Register is from react-hook-form, first param is name field, second option
               {...register("firstName", {
                 required: {
                   value: true,
