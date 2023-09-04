@@ -15,7 +15,7 @@ export default function Footer() {
           as an attorney-client relationship has been established.
         </p>
         <h4>This is an advertisement.</h4>
-        <Link href='/about'>
+        <Link href='/about' legacyBehavior>
           <a>About Us</a>
         </Link>
       </div>

@@ -16,7 +16,7 @@ export default function Home() {
           <p className='text-center'>
             <i>Let Us Fight For You</i>
           </p>
-          <Link href='/contact'>
+          <Link href='/contact' legacyBehavior>
             <a className='contact-us'>Contact Us</a>
           </Link>
         </section>

@@ -25,7 +25,7 @@ export default function Header() {
     <nav className='flex ai-c jc-sb'>
       <ul className='main-navigation flex jc-c'>
         <li className='nav-item'>
-          <Link href='/'>
+          <Link href='/' legacyBehavior>
             <a>Home</a>
           </Link>
         </li>
@@ -33,17 +33,17 @@ export default function Header() {
           Areas of Practice <FaChevronDown style={{ marginLeft: "0.5em" }} />
           <ul className='drop-down-menu'>
             <li className='drop-item'>
-              <Link href='/areasofpractice/car-accident'>
+              <Link href='/areasofpractice/car-accident' legacyBehavior>
                 <a>Car Accident</a>
               </Link>
             </li>
             <li className='drop-item'>
-              <Link href='/areasofpractice/truck-accident'>
+              <Link href='/areasofpractice/truck-accident' legacyBehavior>
                 <a>Truck Accident</a>
               </Link>
             </li>
             <li className='drop-item'>
-              <Link href='/areasofpractice/premises-liability'>
+              <Link href='/areasofpractice/premises-liability' legacyBehavior>
                 <a>Premises Liability</a>
               </Link>
             </li>
@@ -61,19 +61,19 @@ export default function Header() {
           </div>
           <ul className='drop-down-menu'>
             <li className='drop-item'>
-              <Link href='/about'>
+              <Link href='/about' legacyBehavior>
                 <a>Casey Hall</a>
               </Link>
             </li>
             <li className='drop-item'>
-              <Link href='/about/location'>
+              <Link href='/about/location' legacyBehavior>
                 <a>Locations</a>
               </Link>
             </li>
           </ul>
         </li>
         <li className='nav-item'>
-          <Link href='/contact'>
+          <Link href='/contact' legacyBehavior>
             <a>Contact</a>
           </Link>
         </li>

@@ -43,7 +43,7 @@ export default function Layout({ title, keywords, description, children }) {
       </Head>
 
       <div className='banner flex jc-sb ai-c'>
-        <Link href='/'>
+        <Link href='/' legacyBehavior>
           <img src='/images/logo.svg' alt='logo' className='pointer' />
         </Link>
         <div className='banner_disclaimer flex col jc-c'>

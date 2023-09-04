@@ -9,13 +9,13 @@ export default function Message() {
         <h1>Thank you, for submitting your message</h1>
         <p>We will contact you once we have had time to review your message.</p>
         <div className='flex'>
-          <Link href='/'>
+          <Link href='/' legacyBehavior>
             <a>Home</a>
           </Link>
-          <Link href='/about'>
+          <Link href='/about' legacyBehavior>
             <a>About</a>
           </Link>
-          <Link href='/about/location'>
+          <Link href='/about/location' legacyBehavior>
             <a>Location</a>
           </Link>
         </div>
