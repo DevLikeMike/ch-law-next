@@ -11,6 +11,7 @@
   p,
   h1,
   ul,
+  ol,
   hr {
     margin-bottom: 1rem;
   }
@@ -20,11 +21,30 @@
     font-size: 1.85rem;
   }
 
+  ol li {
+    max-width: 75rem;
+    list-style: numeric;
+    border-bottom: 1px lightslategray solid;
+    margin-bottom: 1.25rem;
+
+    b:hover {
+      text-decoration: underline;
+    }
+  }
+
+  ol li:last-of-type {
+    border-bottom: none;
+  }
+
   li {
     list-style: outside;
     margin-left: 3rem;
     margin-top: 0.25em;
     max-width: 35rem;
+
+    @include md-mobile {
+      margin-left: 1rem;
+    }
   }
 
   .title {

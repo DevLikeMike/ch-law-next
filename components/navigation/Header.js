@@ -38,6 +38,51 @@ export default function Header() {
               </Link>
             </li>
             <li className='drop-item'>
+              <Link href='/areasofpractice/atv-accident' legacyBehavior>
+                <a>ATV Accident</a>
+              </Link>
+            </li>
+            <li className='drop-item'>
+              <Link href='/areasofpractice/bicycle-accident' legacyBehavior>
+                <a>Bicycle Accident</a>
+              </Link>
+            </li>
+            <li className='drop-item'>
+              <Link href='/areasofpractice/bus-accident' legacyBehavior>
+                <a>Bus Accident</a>
+              </Link>
+            </li>
+            <li className='drop-item'>
+              <Link href='/areasofpractice/distracted-driving' legacyBehavior>
+                <a>Distracted Driving</a>
+              </Link>
+            </li>
+            <li className='drop-item'>
+              <Link href='/areasofpractice/drunk-driving' legacyBehavior>
+                <a>Drunk Driving</a>
+              </Link>
+            </li>
+            <li className='drop-item'>
+              <Link href='/areasofpractice/hit-and-run' legacyBehavior>
+                <a>Hit and Run</a>
+              </Link>
+            </li>
+            <li className='drop-item'>
+              <Link href='/areasofpractice/motorcycle-accident' legacyBehavior>
+                <a>Motorcycle Accident</a>
+              </Link>
+            </li>
+            <li className='drop-item'>
+              <Link href='/areasofpractice/pedestrian-accident' legacyBehavior>
+                <a>Pedestrian Accident</a>
+              </Link>
+            </li>
+            <li className='drop-item'>
+              <Link href='/areasofpractice/slip-and-fall' legacyBehavior>
+                <a>Slip and Fall</a>
+              </Link>
+            </li>
+            <li className='drop-item'>
               <Link href='/areasofpractice/truck-accident' legacyBehavior>
                 <a>Truck Accident</a>
               </Link>

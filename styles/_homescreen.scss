@@ -43,7 +43,7 @@
     }
     // Left side
     .info_left {
-      flex-basis: 45%;
+      flex-basis: 50%;
       padding: 0 3em;
       @include md-mobile {
         padding: 0.5em;
@@ -55,7 +55,7 @@
     }
 
     .info_right {
-      flex-basis: 45%;
+      flex-basis: 50%;
       padding: 0 3rem;
       @include md-mobile {
         padding: 0.5em;
