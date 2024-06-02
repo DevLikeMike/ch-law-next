@@ -44,7 +44,7 @@
     // Left side
     .info_left {
       flex-basis: 45%;
-      padding: 1em;
+      padding: 0 3em;
       @include md-mobile {
         padding: 0.5em;
       }
@@ -56,7 +56,7 @@
 
     .info_right {
       flex-basis: 45%;
-      padding: 1em;
+      padding: 0 3rem;
       @include md-mobile {
         padding: 0.5em;
       }
@@ -72,6 +72,38 @@
           }
         }
       }
+    }
+  }
+
+  .content {
+    padding: 0 3rem;
+
+    @include md-mobile {
+      padding: 0 1rem;
+    }
+  }
+
+  h3,
+  p,
+  h1,
+  ul,
+  hr {
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    color: $headingColor;
+    font-size: 1.85rem;
+  }
+
+  li {
+    list-style: outside;
+    margin-left: 3rem;
+    margin-top: 0.25em;
+    max-width: 35rem;
+
+    a:hover {
+      text-decoration: underline;
     }
   }
 }
